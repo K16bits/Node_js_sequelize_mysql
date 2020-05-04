@@ -12,19 +12,5 @@ Ter no node_modules
 Para executar:
    npm run dev
 
-Crie a database no xampp de nome test.
+Crie a database no xampp de nome test
 
-execute o codigo a seguir no arquivo index.js
- const Pessoas = connection.define("Pessoas",{  // Criando uma nova tabela
-     nome:{
-         type: Sequelize.STRING
-     },
-     email:{
-         type: Sequelize.STRING
-     },
-     senha:{
-         type: Sequelize.INTEGER 
-         }
- })
-
- Pessoas.sync({force:true}); Faz a sicronização da nova Tabela no mysql
