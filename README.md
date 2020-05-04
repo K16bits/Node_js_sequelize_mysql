@@ -12,5 +12,4 @@ Ter no node_modules
 Para executar:
    npm run dev
 
-Crie a database no xampp de nome test
-
+Crie a tabela no xampp na database test (Codigo da criação está no index.js comentada)
