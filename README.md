@@ -23,7 +23,7 @@ execute o codigo a seguir no arquivo index.js
          type: Sequelize.STRING
      },
      senha:{
-         type: Sequelize.INTEGER
+         type: Sequelize.INTEGER 
          }
  })
 
