@@ -15,16 +15,16 @@ Para executar:
 Crie a database no xampp de nome test.
 
 execute o codigo a seguir no arquivo index.js
-// const Pessoas = connection.define("Pessoas",{  // Criando uma nova tabela
-//     nome:{
-//         type: Sequelize.STRING
-//     },
-//     email:{
-//         type: Sequelize.STRING
-//     },
-//     senha:{
-//         type: Sequelize.INTEGER
-//     }
-// })
+ const Pessoas = connection.define("Pessoas",{  // Criando uma nova tabela
+     nome:{
+         type: Sequelize.STRING
+     },
+     email:{
+         type: Sequelize.STRING
+     },
+     senha:{
+         type: Sequelize.INTEGER
+         }
+ })
 
-// Pessoas.sync({force:true}); Faz a sicronização da nova Tabela no mysql
+ Pessoas.sync({force:true}); Faz a sicronização da nova Tabela no mysql
