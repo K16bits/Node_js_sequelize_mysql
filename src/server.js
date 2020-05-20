@@ -1,6 +1,6 @@
 const express = require("express");
 const routes = require("./routes");
-require("./data")
+require("./data")  //obs: bug procurar arquivo index.js 
 
 
 const app = express();
