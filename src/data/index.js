@@ -9,9 +9,9 @@ connection.authenticate().then(()=>{
     console.error("Deu errado :C",e);
 })
 
-Pessoa.init(connection); //MUito importante
+Pessoa.init(connection); //Conexão do Sequelize
 
-// const Pessoas = connection.define("Pessoas",{  // Criando uma nova tabela
+// const Pessoas = connection.define("Pessoas",{  // Criando uma nova tabela, Se o nodemon estiver ativado só descomentar e comentar que irá ser criado
 //     nome:{
 //         type: Sequelize.STRING
 //     },
@@ -23,7 +23,7 @@ Pessoa.init(connection); //MUito importante
 //     }
 // })
 
-// Pessoas.sync({force:true});
+// Pessoas.sync({force:true}); //Forçar a sincronização no banco de dados
 
 
 module.exports = {
