@@ -1,7 +1,7 @@
 # Node_js_sequelize_mysql
 Implementando Node.js + Sequelize + Mysql. (Aprendendo as aplicações) <br/>
 
-Obs: XAMPP Tem que ter uma database chamada de test, e XAMPP rodando no localhost.<br>
+Obs: XAMPP Tem que ter uma database chamada de test e XAMPP rodando no localhost.<br>
 
 #Instalando as dependencies<br>
 npm install<br>
